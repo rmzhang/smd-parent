@@ -11,6 +11,7 @@
         <module>smd-order</module>
         <module>smd-service</module>
         <module>smd-config</module>
+        <module>api-gateway</module>
     </modules>
     <packaging>pom</packaging>
 
