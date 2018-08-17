@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(value = "smd-order", fallback = UserServiceImpl.class)
 public interface UserRemoteService {
 
-    @RequestMapping(value = "order/getOrderByUserId", method = RequestMethod.GET)
+    @RequestMapping(value = "smd-order/getOrderByUserId", method = RequestMethod.GET)
     OrderDto getOrderByUserId(@RequestParam(value = "userId") Integer userId);
 }

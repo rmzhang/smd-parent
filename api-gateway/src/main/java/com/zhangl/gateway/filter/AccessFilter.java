@@ -1,16 +1,8 @@
 package com.zhangl.gateway.filter;
 
-import com.netflix.zuul.ZuulFilter;
-import com.netflix.zuul.context.RequestContext;
-import com.netflix.zuul.exception.ZuulException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+public class AccessFilter {
 
-import javax.servlet.http.HttpServletRequest;
-
-public class AccessFilter extends ZuulFilter {
-
-    private final static Logger logger = LoggerFactory.getLogger(AccessFilter.class);
+    /*private final static Logger logger = LoggerFactory.getLogger(AccessFilter.class);
 
     @Override
     public String filterType() {
@@ -24,7 +16,7 @@ public class AccessFilter extends ZuulFilter {
 
     @Override
     public boolean shouldFilter() {
-        return true;
+        return false;
     }
 
     @Override
@@ -43,5 +35,5 @@ public class AccessFilter extends ZuulFilter {
         }
         logger.info("access is ok");
         return null;
-    }
+    }*/
 }

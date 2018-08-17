@@ -12,6 +12,7 @@
         <module>smd-service</module>
         <module>smd-config</module>
         <module>api-gateway</module>
+        <module>smd-rabbitmq</module>
     </modules>
     <packaging>pom</packaging>
 
